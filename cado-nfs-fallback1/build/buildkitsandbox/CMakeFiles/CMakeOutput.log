@@ -1,0 +1,2197 @@
+The system is: Linux - 6.1.78-mmp - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: -O2;-march=znver2;-DNDEBUG
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/3.22.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: -O2;-march=znver2;-DNDEBUG
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/3.22.1/CompilerIdCXX/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp
+
+Run Build Command(s):make -f Makefile cmTC_8123b/fast && make[1]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_8123b.dir/build.make CMakeFiles/cmTC_8123b.dir/build
+make[2]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8123b.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -O2 -march=znver2 -DNDEBUG    -v -o CMakeFiles/cmTC_8123b.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+COLLECT_GCC_OPTIONS='-O2' '-march=znver2' '-D' 'NDEBUG' '-v' '-o' 'CMakeFiles/cmTC_8123b.dir/CMakeCCompilerABI.c.o' '-c' '-dumpdir' 'CMakeFiles/cmTC_8123b.dir/'
+ /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu -D NDEBUG /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_8123b.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -march=znver2 -O2 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cczteGlX.s
+GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/11/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 50eaa2331df977b8016186198deb2d18
+COLLECT_GCC_OPTIONS='-O2' '-march=znver2' '-D' 'NDEBUG' '-v' '-o' 'CMakeFiles/cmTC_8123b.dir/CMakeCCompilerABI.c.o' '-c' '-dumpdir' 'CMakeFiles/cmTC_8123b.dir/'
+ as -v --64 -o CMakeFiles/cmTC_8123b.dir/CMakeCCompilerABI.c.o /tmp/cczteGlX.s
+GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-O2' '-march=znver2' '-D' 'NDEBUG' '-v' '-o' 'CMakeFiles/cmTC_8123b.dir/CMakeCCompilerABI.c.o' '-c' '-dumpdir' 'CMakeFiles/cmTC_8123b.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_8123b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8123b.dir/link.txt --verbose=1
+/usr/bin/cc -O2 -march=znver2 -DNDEBUG   -v CMakeFiles/cmTC_8123b.dir/CMakeCCompilerABI.c.o -o cmTC_8123b 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-O2' '-march=znver2' '-D' 'NDEBUG' '-v' '-o' 'cmTC_8123b' '-dumpdir' 'cmTC_8123b.'
+ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccpzYjnO.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_8123b /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_8123b.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-O2' '-march=znver2' '-D' 'NDEBUG' '-v' '-o' 'cmTC_8123b' '-dumpdir' 'cmTC_8123b.'
+make[2]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/11/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/11/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):make -f Makefile cmTC_8123b/fast && make[1]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp']
+  ignore line: [make  -f CMakeFiles/cmTC_8123b.dir/build.make CMakeFiles/cmTC_8123b.dir/build]
+  ignore line: [make[2]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_8123b.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -O2 -march=znver2 -DNDEBUG    -v -o CMakeFiles/cmTC_8123b.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-O2' '-march=znver2' '-D' 'NDEBUG' '-v' '-o' 'CMakeFiles/cmTC_8123b.dir/CMakeCCompilerABI.c.o' '-c' '-dumpdir' 'CMakeFiles/cmTC_8123b.dir/']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu -D NDEBUG /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_8123b.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -march=znver2 -O2 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cczteGlX.s]
+  ignore line: [GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 50eaa2331df977b8016186198deb2d18]
+  ignore line: [COLLECT_GCC_OPTIONS='-O2' '-march=znver2' '-D' 'NDEBUG' '-v' '-o' 'CMakeFiles/cmTC_8123b.dir/CMakeCCompilerABI.c.o' '-c' '-dumpdir' 'CMakeFiles/cmTC_8123b.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_8123b.dir/CMakeCCompilerABI.c.o /tmp/cczteGlX.s]
+  ignore line: [GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-O2' '-march=znver2' '-D' 'NDEBUG' '-v' '-o' 'CMakeFiles/cmTC_8123b.dir/CMakeCCompilerABI.c.o' '-c' '-dumpdir' 'CMakeFiles/cmTC_8123b.dir/CMakeCCompilerABI.c.']
+  ignore line: [Linking C executable cmTC_8123b]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8123b.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc -O2 -march=znver2 -DNDEBUG   -v CMakeFiles/cmTC_8123b.dir/CMakeCCompilerABI.c.o -o cmTC_8123b ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-O2' '-march=znver2' '-D' 'NDEBUG' '-v' '-o' 'cmTC_8123b' '-dumpdir' 'cmTC_8123b.']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccpzYjnO.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_8123b /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_8123b.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccpzYjnO.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_8123b] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
+    arg [CMakeFiles/cmTC_8123b.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11] ==> [/usr/lib/gcc/x86_64-linux-gnu/11]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/11;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp
+
+Run Build Command(s):make -f Makefile cmTC_c16b3/fast && make[1]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_c16b3.dir/build.make CMakeFiles/cmTC_c16b3.dir/build
+make[2]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c16b3.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++   -O2 -march=znver2 -DNDEBUG    -v -o CMakeFiles/cmTC_c16b3.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+COLLECT_GCC_OPTIONS='-O2' '-march=znver2' '-D' 'NDEBUG' '-v' '-o' 'CMakeFiles/cmTC_c16b3.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-dumpdir' 'CMakeFiles/cmTC_c16b3.dir/'
+ /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE -D NDEBUG /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_c16b3.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -march=znver2 -O2 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccGHnwUY.s
+GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/11"
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/include/c++/11
+ /usr/include/x86_64-linux-gnu/c++/11
+ /usr/include/c++/11/backward
+ /usr/lib/gcc/x86_64-linux-gnu/11/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: d591828bb4d392ae8b7b160e5bb0b95f
+COLLECT_GCC_OPTIONS='-O2' '-march=znver2' '-D' 'NDEBUG' '-v' '-o' 'CMakeFiles/cmTC_c16b3.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-dumpdir' 'CMakeFiles/cmTC_c16b3.dir/'
+ as -v --64 -o CMakeFiles/cmTC_c16b3.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccGHnwUY.s
+GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-O2' '-march=znver2' '-D' 'NDEBUG' '-v' '-o' 'CMakeFiles/cmTC_c16b3.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-dumpdir' 'CMakeFiles/cmTC_c16b3.dir/CMakeCXXCompilerABI.cpp.'
+Linking CXX executable cmTC_c16b3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c16b3.dir/link.txt --verbose=1
+/usr/bin/c++ -O2 -march=znver2 -DNDEBUG   -v CMakeFiles/cmTC_c16b3.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_c16b3 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-O2' '-march=znver2' '-D' 'NDEBUG' '-v' '-o' 'cmTC_c16b3' '-shared-libgcc' '-dumpdir' 'cmTC_c16b3.'
+ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccDwdS1c.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_c16b3 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_c16b3.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-O2' '-march=znver2' '-D' 'NDEBUG' '-v' '-o' 'cmTC_c16b3' '-shared-libgcc' '-dumpdir' 'cmTC_c16b3.'
+make[2]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/include/c++/11]
+    add: [/usr/include/x86_64-linux-gnu/c++/11]
+    add: [/usr/include/c++/11/backward]
+    add: [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/include/c++/11] ==> [/usr/include/c++/11]
+  collapse include dir [/usr/include/x86_64-linux-gnu/c++/11] ==> [/usr/include/x86_64-linux-gnu/c++/11]
+  collapse include dir [/usr/include/c++/11/backward] ==> [/usr/include/c++/11/backward]
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/11/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/include/c++/11;/usr/include/x86_64-linux-gnu/c++/11;/usr/include/c++/11/backward;/usr/lib/gcc/x86_64-linux-gnu/11/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):make -f Makefile cmTC_c16b3/fast && make[1]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp']
+  ignore line: [make  -f CMakeFiles/cmTC_c16b3.dir/build.make CMakeFiles/cmTC_c16b3.dir/build]
+  ignore line: [make[2]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_c16b3.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++   -O2 -march=znver2 -DNDEBUG    -v -o CMakeFiles/cmTC_c16b3.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-O2' '-march=znver2' '-D' 'NDEBUG' '-v' '-o' 'CMakeFiles/cmTC_c16b3.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-dumpdir' 'CMakeFiles/cmTC_c16b3.dir/']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE -D NDEBUG /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_c16b3.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -march=znver2 -O2 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccGHnwUY.s]
+  ignore line: [GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/11"]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/include/c++/11]
+  ignore line: [ /usr/include/x86_64-linux-gnu/c++/11]
+  ignore line: [ /usr/include/c++/11/backward]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: d591828bb4d392ae8b7b160e5bb0b95f]
+  ignore line: [COLLECT_GCC_OPTIONS='-O2' '-march=znver2' '-D' 'NDEBUG' '-v' '-o' 'CMakeFiles/cmTC_c16b3.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-dumpdir' 'CMakeFiles/cmTC_c16b3.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_c16b3.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccGHnwUY.s]
+  ignore line: [GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-O2' '-march=znver2' '-D' 'NDEBUG' '-v' '-o' 'CMakeFiles/cmTC_c16b3.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-dumpdir' 'CMakeFiles/cmTC_c16b3.dir/CMakeCXXCompilerABI.cpp.']
+  ignore line: [Linking CXX executable cmTC_c16b3]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c16b3.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++ -O2 -march=znver2 -DNDEBUG   -v CMakeFiles/cmTC_c16b3.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_c16b3 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-O2' '-march=znver2' '-D' 'NDEBUG' '-v' '-o' 'cmTC_c16b3' '-shared-libgcc' '-dumpdir' 'cmTC_c16b3.']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccDwdS1c.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_c16b3 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_c16b3.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccDwdS1c.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_c16b3] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
+    arg [CMakeFiles/cmTC_c16b3.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11] ==> [/usr/lib/gcc/x86_64-linux-gnu/11]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/11;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp
+
+Run Build Command(s):make -f Makefile cmTC_9b945/fast && make[1]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_9b945.dir/build.make CMakeFiles/cmTC_9b945.dir/build
+make[2]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9b945.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -std=c99 -W -Wall -O2 -march=znver2 -DNDEBUG   -o CMakeFiles/cmTC_9b945.dir/CheckIncludeFile.c.o -c /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_9b945
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9b945.dir/link.txt --verbose=1
+/usr/bin/cc -std=c99 -W -Wall -O2 -march=znver2 -DNDEBUG   CMakeFiles/cmTC_9b945.dir/CheckIncludeFile.c.o -o cmTC_9b945 
+make[2]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp
+
+Run Build Command(s):make -f Makefile cmTC_671a2/fast && make[1]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_671a2.dir/build.make CMakeFiles/cmTC_671a2.dir/build
+make[2]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_671a2.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -std=c99 -W -Wall -O2 -march=znver2 -DNDEBUG   -o CMakeFiles/cmTC_671a2.dir/CheckIncludeFile.c.o -c /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_671a2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_671a2.dir/link.txt --verbose=1
+/usr/bin/cc -std=c99 -W -Wall -O2 -march=znver2 -DNDEBUG   CMakeFiles/cmTC_671a2.dir/CheckIncludeFile.c.o -o cmTC_671a2 
+make[2]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp
+
+Run Build Command(s):make -f Makefile cmTC_852f9/fast && make[1]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_852f9.dir/build.make CMakeFiles/cmTC_852f9.dir/build
+make[2]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_852f9.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -std=c99 -W -Wall -O2 -march=znver2 -DNDEBUG   -o CMakeFiles/cmTC_852f9.dir/CheckIncludeFile.c.o -c /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_852f9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_852f9.dir/link.txt --verbose=1
+/usr/bin/cc -std=c99 -W -Wall -O2 -march=znver2 -DNDEBUG   CMakeFiles/cmTC_852f9.dir/CheckIncludeFile.c.o -o cmTC_852f9 
+make[2]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of unsigned long int passed with the following output:
+Change Dir: /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp
+
+Run Build Command(s):make -f Makefile cmTC_40e59/fast && make[1]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_40e59.dir/build.make CMakeFiles/cmTC_40e59.dir/build
+make[2]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_40e59.dir/ulong_size.c.o
+/usr/bin/cc   -std=c99 -W -Wall -O2 -march=znver2 -DNDEBUG   -o CMakeFiles/cmTC_40e59.dir/ulong_size.c.o -c /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CheckTypeSize/ulong_size.c
+Linking C executable cmTC_40e59
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_40e59.dir/link.txt --verbose=1
+/usr/bin/cc -std=c99 -W -Wall -O2 -march=znver2 -DNDEBUG   CMakeFiles/cmTC_40e59.dir/ulong_size.c.o -o cmTC_40e59 
+make[2]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of unsigned long long int passed with the following output:
+Change Dir: /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp
+
+Run Build Command(s):make -f Makefile cmTC_b3252/fast && make[1]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_b3252.dir/build.make CMakeFiles/cmTC_b3252.dir/build
+make[2]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b3252.dir/ulonglong_size.c.o
+/usr/bin/cc   -std=c99 -W -Wall -O2 -march=znver2 -DNDEBUG   -o CMakeFiles/cmTC_b3252.dir/ulonglong_size.c.o -c /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CheckTypeSize/ulonglong_size.c
+Linking C executable cmTC_b3252
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b3252.dir/link.txt --verbose=1
+/usr/bin/cc -std=c99 -W -Wall -O2 -march=znver2 -DNDEBUG   CMakeFiles/cmTC_b3252.dir/ulonglong_size.c.o -o cmTC_b3252 
+make[2]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+
+
+
+Performing C++ SOURCE FILE Test UINT64_T_IS_EXACTLY_UNSIGNED_LONG succeeded with the following output:
+Change Dir: /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp
+
+Run Build Command(s):make -f Makefile cmTC_2d5e4/fast && make[1]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_2d5e4.dir/build.make CMakeFiles/cmTC_2d5e4.dir/build
+make[2]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2d5e4.dir/src.cxx.o
+/usr/bin/c++   -export-dynamic -std=c++17 -Wno-c++11-compat -W -Wall -O2 -march=znver2 -DNDEBUG  -Wno-literal-suffix -DUINT64_T_IS_EXACTLY_UNSIGNED_LONG -o CMakeFiles/cmTC_2d5e4.dir/src.cxx.o -c /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_2d5e4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2d5e4.dir/link.txt --verbose=1
+/usr/bin/c++ -export-dynamic -std=c++17 -Wno-c++11-compat -W -Wall -O2 -march=znver2 -DNDEBUG  -Wno-literal-suffix -DUINT64_T_IS_EXACTLY_UNSIGNED_LONG CMakeFiles/cmTC_2d5e4.dir/src.cxx.o -o cmTC_2d5e4  -lgmp 
+make[2]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <type_traits>
+#include <stdint.h>
+#include <stdio.h>
+#include <gmp.h>
+int main()
+{
+    static_assert(std::is_same<uint64_t, unsigned long>::value, "not this type");
+    return 0;
+}
+
+Performing C++ SOURCE FILE Test UINT64_T_IS_COMPATIBLE_WITH_UNSIGNED_LONG_LONG succeeded with the following output:
+Change Dir: /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp
+
+Run Build Command(s):make -f Makefile cmTC_6fe66/fast && make[1]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_6fe66.dir/build.make CMakeFiles/cmTC_6fe66.dir/build
+make[2]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6fe66.dir/src.cxx.o
+/usr/bin/c++   -export-dynamic -std=c++17 -Wno-c++11-compat -W -Wall -O2 -march=znver2 -DNDEBUG  -Wno-literal-suffix -DUINT64_T_IS_COMPATIBLE_WITH_UNSIGNED_LONG_LONG -o CMakeFiles/cmTC_6fe66.dir/src.cxx.o -c /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_6fe66
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6fe66.dir/link.txt --verbose=1
+/usr/bin/c++ -export-dynamic -std=c++17 -Wno-c++11-compat -W -Wall -O2 -march=znver2 -DNDEBUG  -Wno-literal-suffix -DUINT64_T_IS_COMPATIBLE_WITH_UNSIGNED_LONG_LONG CMakeFiles/cmTC_6fe66.dir/src.cxx.o -o cmTC_6fe66  -lgmp 
+make[2]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <type_traits>
+#include <stdint.h>
+#include <stdio.h>
+#include <gmp.h>
+int main()
+{
+    static_assert(std::is_same<uint64_t, unsigned long long>::value ||
+        (sizeof(uint64_t) == sizeof(unsigned long long)
+        && std::is_signed<uint64_t>::value == std::is_signed<unsigned long long>::value)
+        , "not this type");
+    return 0;
+}
+
+Performing C++ SOURCE FILE Test UNSIGNED_LONG_LONG_IS_COMPATIBLE_WITH_UNSIGNED_LONG succeeded with the following output:
+Change Dir: /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp
+
+Run Build Command(s):make -f Makefile cmTC_f4996/fast && make[1]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_f4996.dir/build.make CMakeFiles/cmTC_f4996.dir/build
+make[2]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f4996.dir/src.cxx.o
+/usr/bin/c++   -export-dynamic -std=c++17 -Wno-c++11-compat -W -Wall -O2 -march=znver2 -DNDEBUG  -Wno-literal-suffix -DUNSIGNED_LONG_LONG_IS_COMPATIBLE_WITH_UNSIGNED_LONG -o CMakeFiles/cmTC_f4996.dir/src.cxx.o -c /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_f4996
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f4996.dir/link.txt --verbose=1
+/usr/bin/c++ -export-dynamic -std=c++17 -Wno-c++11-compat -W -Wall -O2 -march=znver2 -DNDEBUG  -Wno-literal-suffix -DUNSIGNED_LONG_LONG_IS_COMPATIBLE_WITH_UNSIGNED_LONG CMakeFiles/cmTC_f4996.dir/src.cxx.o -o cmTC_f4996  -lgmp 
+make[2]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <type_traits>
+#include <stdint.h>
+#include <stdio.h>
+#include <gmp.h>
+int main()
+{
+    static_assert(std::is_same<unsigned long long, unsigned long>::value ||
+        (sizeof(unsigned long long) == sizeof(unsigned long)
+        && std::is_signed<unsigned long long>::value == std::is_signed<unsigned long>::value)
+        , "not this type");
+    return 0;
+}
+
+Performing C++ SOURCE FILE Test SIZE_T_IS_EXACTLY_UNSIGNED_LONG succeeded with the following output:
+Change Dir: /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp
+
+Run Build Command(s):make -f Makefile cmTC_93bfa/fast && make[1]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_93bfa.dir/build.make CMakeFiles/cmTC_93bfa.dir/build
+make[2]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_93bfa.dir/src.cxx.o
+/usr/bin/c++   -export-dynamic -std=c++17 -Wno-c++11-compat -W -Wall -O2 -march=znver2 -DNDEBUG  -Wno-literal-suffix -DSIZE_T_IS_EXACTLY_UNSIGNED_LONG -o CMakeFiles/cmTC_93bfa.dir/src.cxx.o -c /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_93bfa
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_93bfa.dir/link.txt --verbose=1
+/usr/bin/c++ -export-dynamic -std=c++17 -Wno-c++11-compat -W -Wall -O2 -march=znver2 -DNDEBUG  -Wno-literal-suffix -DSIZE_T_IS_EXACTLY_UNSIGNED_LONG CMakeFiles/cmTC_93bfa.dir/src.cxx.o -o cmTC_93bfa  -lgmp 
+make[2]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <type_traits>
+#include <stdint.h>
+#include <stdio.h>
+#include <gmp.h>
+int main()
+{
+    static_assert(std::is_same<size_t, unsigned long>::value, "not this type");
+    return 0;
+}
+
+Performing C++ SOURCE FILE Test SIZE_T_IS_COMPATIBLE_WITH_UNSIGNED_LONG_LONG succeeded with the following output:
+Change Dir: /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp
+
+Run Build Command(s):make -f Makefile cmTC_8a208/fast && make[1]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_8a208.dir/build.make CMakeFiles/cmTC_8a208.dir/build
+make[2]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8a208.dir/src.cxx.o
+/usr/bin/c++   -export-dynamic -std=c++17 -Wno-c++11-compat -W -Wall -O2 -march=znver2 -DNDEBUG  -Wno-literal-suffix -DSIZE_T_IS_COMPATIBLE_WITH_UNSIGNED_LONG_LONG -o CMakeFiles/cmTC_8a208.dir/src.cxx.o -c /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_8a208
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8a208.dir/link.txt --verbose=1
+/usr/bin/c++ -export-dynamic -std=c++17 -Wno-c++11-compat -W -Wall -O2 -march=znver2 -DNDEBUG  -Wno-literal-suffix -DSIZE_T_IS_COMPATIBLE_WITH_UNSIGNED_LONG_LONG CMakeFiles/cmTC_8a208.dir/src.cxx.o -o cmTC_8a208  -lgmp 
+make[2]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <type_traits>
+#include <stdint.h>
+#include <stdio.h>
+#include <gmp.h>
+int main()
+{
+    static_assert(std::is_same<size_t, unsigned long long>::value ||
+        (sizeof(size_t) == sizeof(unsigned long long)
+        && std::is_signed<size_t>::value == std::is_signed<unsigned long long>::value)
+        , "not this type");
+    return 0;
+}
+
+Performing C++ SOURCE FILE Test MP_LIMB_T_IS_EXACTLY_UNSIGNED_LONG succeeded with the following output:
+Change Dir: /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp
+
+Run Build Command(s):make -f Makefile cmTC_b5969/fast && make[1]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_b5969.dir/build.make CMakeFiles/cmTC_b5969.dir/build
+make[2]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b5969.dir/src.cxx.o
+/usr/bin/c++   -export-dynamic -std=c++17 -Wno-c++11-compat -W -Wall -O2 -march=znver2 -DNDEBUG  -Wno-literal-suffix -DMP_LIMB_T_IS_EXACTLY_UNSIGNED_LONG -o CMakeFiles/cmTC_b5969.dir/src.cxx.o -c /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_b5969
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b5969.dir/link.txt --verbose=1
+/usr/bin/c++ -export-dynamic -std=c++17 -Wno-c++11-compat -W -Wall -O2 -march=znver2 -DNDEBUG  -Wno-literal-suffix -DMP_LIMB_T_IS_EXACTLY_UNSIGNED_LONG CMakeFiles/cmTC_b5969.dir/src.cxx.o -o cmTC_b5969  -lgmp 
+make[2]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <type_traits>
+#include <stdint.h>
+#include <stdio.h>
+#include <gmp.h>
+int main()
+{
+    static_assert(std::is_same<mp_limb_t, unsigned long>::value, "not this type");
+    return 0;
+}
+
+Performing C++ SOURCE FILE Test MP_LIMB_T_IS_COMPATIBLE_WITH_UNSIGNED_LONG_LONG succeeded with the following output:
+Change Dir: /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp
+
+Run Build Command(s):make -f Makefile cmTC_14093/fast && make[1]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_14093.dir/build.make CMakeFiles/cmTC_14093.dir/build
+make[2]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_14093.dir/src.cxx.o
+/usr/bin/c++   -export-dynamic -std=c++17 -Wno-c++11-compat -W -Wall -O2 -march=znver2 -DNDEBUG  -Wno-literal-suffix -DMP_LIMB_T_IS_COMPATIBLE_WITH_UNSIGNED_LONG_LONG -o CMakeFiles/cmTC_14093.dir/src.cxx.o -c /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_14093
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_14093.dir/link.txt --verbose=1
+/usr/bin/c++ -export-dynamic -std=c++17 -Wno-c++11-compat -W -Wall -O2 -march=znver2 -DNDEBUG  -Wno-literal-suffix -DMP_LIMB_T_IS_COMPATIBLE_WITH_UNSIGNED_LONG_LONG CMakeFiles/cmTC_14093.dir/src.cxx.o -o cmTC_14093  -lgmp 
+make[2]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <type_traits>
+#include <stdint.h>
+#include <stdio.h>
+#include <gmp.h>
+int main()
+{
+    static_assert(std::is_same<mp_limb_t, unsigned long long>::value ||
+        (sizeof(mp_limb_t) == sizeof(unsigned long long)
+        && std::is_signed<mp_limb_t>::value == std::is_signed<unsigned long long>::value)
+        , "not this type");
+    return 0;
+}
+
+Performing C++ SOURCE FILE Test UINT32_T_IS_EXACTLY_UNSIGNED succeeded with the following output:
+Change Dir: /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp
+
+Run Build Command(s):make -f Makefile cmTC_04d2d/fast && make[1]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_04d2d.dir/build.make CMakeFiles/cmTC_04d2d.dir/build
+make[2]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_04d2d.dir/src.cxx.o
+/usr/bin/c++   -export-dynamic -std=c++17 -Wno-c++11-compat -W -Wall -O2 -march=znver2 -DNDEBUG  -Wno-literal-suffix -DUINT32_T_IS_EXACTLY_UNSIGNED -o CMakeFiles/cmTC_04d2d.dir/src.cxx.o -c /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_04d2d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_04d2d.dir/link.txt --verbose=1
+/usr/bin/c++ -export-dynamic -std=c++17 -Wno-c++11-compat -W -Wall -O2 -march=znver2 -DNDEBUG  -Wno-literal-suffix -DUINT32_T_IS_EXACTLY_UNSIGNED CMakeFiles/cmTC_04d2d.dir/src.cxx.o -o cmTC_04d2d  -lgmp 
+make[2]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <type_traits>
+#include <stdint.h>
+#include <stdio.h>
+#include <gmp.h>
+int main()
+{
+    static_assert(std::is_same<uint32_t, unsigned int>::value, "not this type");
+    return 0;
+}
+
+Performing C++ SOURCE FILE Test INT64_T_IS_EXACTLY_LONG succeeded with the following output:
+Change Dir: /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp
+
+Run Build Command(s):make -f Makefile cmTC_dfeb7/fast && make[1]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_dfeb7.dir/build.make CMakeFiles/cmTC_dfeb7.dir/build
+make[2]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_dfeb7.dir/src.cxx.o
+/usr/bin/c++   -export-dynamic -std=c++17 -Wno-c++11-compat -W -Wall -O2 -march=znver2 -DNDEBUG  -Wno-literal-suffix -DINT64_T_IS_EXACTLY_LONG -o CMakeFiles/cmTC_dfeb7.dir/src.cxx.o -c /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_dfeb7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dfeb7.dir/link.txt --verbose=1
+/usr/bin/c++ -export-dynamic -std=c++17 -Wno-c++11-compat -W -Wall -O2 -march=znver2 -DNDEBUG  -Wno-literal-suffix -DINT64_T_IS_EXACTLY_LONG CMakeFiles/cmTC_dfeb7.dir/src.cxx.o -o cmTC_dfeb7  -lgmp 
+make[2]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <type_traits>
+#include <stdint.h>
+#include <stdio.h>
+#include <gmp.h>
+int main()
+{
+    static_assert(std::is_same<int64_t, long>::value, "not this type");
+    return 0;
+}
+
+Performing C++ SOURCE FILE Test INT64_T_IS_COMPATIBLE_WITH_LONG_LONG succeeded with the following output:
+Change Dir: /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp
+
+Run Build Command(s):make -f Makefile cmTC_5768b/fast && make[1]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_5768b.dir/build.make CMakeFiles/cmTC_5768b.dir/build
+make[2]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5768b.dir/src.cxx.o
+/usr/bin/c++   -export-dynamic -std=c++17 -Wno-c++11-compat -W -Wall -O2 -march=znver2 -DNDEBUG  -Wno-literal-suffix -DINT64_T_IS_COMPATIBLE_WITH_LONG_LONG -o CMakeFiles/cmTC_5768b.dir/src.cxx.o -c /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_5768b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5768b.dir/link.txt --verbose=1
+/usr/bin/c++ -export-dynamic -std=c++17 -Wno-c++11-compat -W -Wall -O2 -march=znver2 -DNDEBUG  -Wno-literal-suffix -DINT64_T_IS_COMPATIBLE_WITH_LONG_LONG CMakeFiles/cmTC_5768b.dir/src.cxx.o -o cmTC_5768b  -lgmp 
+make[2]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <type_traits>
+#include <stdint.h>
+#include <stdio.h>
+#include <gmp.h>
+int main()
+{
+    static_assert(std::is_same<int64_t, long long>::value ||
+        (sizeof(int64_t) == sizeof(long long)
+        && std::is_signed<int64_t>::value == std::is_signed<long long>::value)
+        , "not this type");
+    return 0;
+}
+
+Performing C++ SOURCE FILE Test LONG_LONG_IS_COMPATIBLE_WITH_LONG succeeded with the following output:
+Change Dir: /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp
+
+Run Build Command(s):make -f Makefile cmTC_4ed58/fast && make[1]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_4ed58.dir/build.make CMakeFiles/cmTC_4ed58.dir/build
+make[2]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4ed58.dir/src.cxx.o
+/usr/bin/c++   -export-dynamic -std=c++17 -Wno-c++11-compat -W -Wall -O2 -march=znver2 -DNDEBUG  -Wno-literal-suffix -DLONG_LONG_IS_COMPATIBLE_WITH_LONG -o CMakeFiles/cmTC_4ed58.dir/src.cxx.o -c /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_4ed58
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4ed58.dir/link.txt --verbose=1
+/usr/bin/c++ -export-dynamic -std=c++17 -Wno-c++11-compat -W -Wall -O2 -march=znver2 -DNDEBUG  -Wno-literal-suffix -DLONG_LONG_IS_COMPATIBLE_WITH_LONG CMakeFiles/cmTC_4ed58.dir/src.cxx.o -o cmTC_4ed58  -lgmp 
+make[2]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <type_traits>
+#include <stdint.h>
+#include <stdio.h>
+#include <gmp.h>
+int main()
+{
+    static_assert(std::is_same<long long, long>::value ||
+        (sizeof(long long) == sizeof(long)
+        && std::is_signed<long long>::value == std::is_signed<long>::value)
+        , "not this type");
+    return 0;
+}
+
+Performing C++ SOURCE FILE Test SSIZE_T_IS_EXACTLY_LONG succeeded with the following output:
+Change Dir: /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp
+
+Run Build Command(s):make -f Makefile cmTC_09d98/fast && make[1]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_09d98.dir/build.make CMakeFiles/cmTC_09d98.dir/build
+make[2]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_09d98.dir/src.cxx.o
+/usr/bin/c++   -export-dynamic -std=c++17 -Wno-c++11-compat -W -Wall -O2 -march=znver2 -DNDEBUG  -Wno-literal-suffix -DSSIZE_T_IS_EXACTLY_LONG -o CMakeFiles/cmTC_09d98.dir/src.cxx.o -c /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_09d98
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_09d98.dir/link.txt --verbose=1
+/usr/bin/c++ -export-dynamic -std=c++17 -Wno-c++11-compat -W -Wall -O2 -march=znver2 -DNDEBUG  -Wno-literal-suffix -DSSIZE_T_IS_EXACTLY_LONG CMakeFiles/cmTC_09d98.dir/src.cxx.o -o cmTC_09d98  -lgmp 
+make[2]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <type_traits>
+#include <stdint.h>
+#include <stdio.h>
+#include <gmp.h>
+int main()
+{
+    static_assert(std::is_same<ssize_t, long>::value, "not this type");
+    return 0;
+}
+
+Performing C++ SOURCE FILE Test SSIZE_T_IS_COMPATIBLE_WITH_LONG_LONG succeeded with the following output:
+Change Dir: /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp
+
+Run Build Command(s):make -f Makefile cmTC_c4453/fast && make[1]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_c4453.dir/build.make CMakeFiles/cmTC_c4453.dir/build
+make[2]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c4453.dir/src.cxx.o
+/usr/bin/c++   -export-dynamic -std=c++17 -Wno-c++11-compat -W -Wall -O2 -march=znver2 -DNDEBUG  -Wno-literal-suffix -DSSIZE_T_IS_COMPATIBLE_WITH_LONG_LONG -o CMakeFiles/cmTC_c4453.dir/src.cxx.o -c /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_c4453
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c4453.dir/link.txt --verbose=1
+/usr/bin/c++ -export-dynamic -std=c++17 -Wno-c++11-compat -W -Wall -O2 -march=znver2 -DNDEBUG  -Wno-literal-suffix -DSSIZE_T_IS_COMPATIBLE_WITH_LONG_LONG CMakeFiles/cmTC_c4453.dir/src.cxx.o -o cmTC_c4453  -lgmp 
+make[2]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <type_traits>
+#include <stdint.h>
+#include <stdio.h>
+#include <gmp.h>
+int main()
+{
+    static_assert(std::is_same<ssize_t, long long>::value ||
+        (sizeof(ssize_t) == sizeof(long long)
+        && std::is_signed<ssize_t>::value == std::is_signed<long long>::value)
+        , "not this type");
+    return 0;
+}
+
+Performing C++ SOURCE FILE Test INT32_T_IS_EXACTLY_INT succeeded with the following output:
+Change Dir: /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp
+
+Run Build Command(s):make -f Makefile cmTC_a087f/fast && make[1]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_a087f.dir/build.make CMakeFiles/cmTC_a087f.dir/build
+make[2]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a087f.dir/src.cxx.o
+/usr/bin/c++   -export-dynamic -std=c++17 -Wno-c++11-compat -W -Wall -O2 -march=znver2 -DNDEBUG  -Wno-literal-suffix -DINT32_T_IS_EXACTLY_INT -o CMakeFiles/cmTC_a087f.dir/src.cxx.o -c /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_a087f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a087f.dir/link.txt --verbose=1
+/usr/bin/c++ -export-dynamic -std=c++17 -Wno-c++11-compat -W -Wall -O2 -march=znver2 -DNDEBUG  -Wno-literal-suffix -DINT32_T_IS_EXACTLY_INT CMakeFiles/cmTC_a087f.dir/src.cxx.o -o cmTC_a087f  -lgmp 
+make[2]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <type_traits>
+#include <stdint.h>
+#include <stdio.h>
+#include <gmp.h>
+int main()
+{
+    static_assert(std::is_same<int32_t, int>::value, "not this type");
+    return 0;
+}
+
+Performing C++ SOURCE FILE Test MP_SIZE_T_IS_COMPATIBLE_WITH_LONG_LONG succeeded with the following output:
+Change Dir: /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp
+
+Run Build Command(s):make -f Makefile cmTC_65f18/fast && make[1]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_65f18.dir/build.make CMakeFiles/cmTC_65f18.dir/build
+make[2]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_65f18.dir/src.cxx.o
+/usr/bin/c++   -export-dynamic -std=c++17 -Wno-c++11-compat -W -Wall -O2 -march=znver2 -DNDEBUG  -Wno-literal-suffix -DMP_SIZE_T_IS_COMPATIBLE_WITH_LONG_LONG -o CMakeFiles/cmTC_65f18.dir/src.cxx.o -c /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_65f18
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_65f18.dir/link.txt --verbose=1
+/usr/bin/c++ -export-dynamic -std=c++17 -Wno-c++11-compat -W -Wall -O2 -march=znver2 -DNDEBUG  -Wno-literal-suffix -DMP_SIZE_T_IS_COMPATIBLE_WITH_LONG_LONG CMakeFiles/cmTC_65f18.dir/src.cxx.o -o cmTC_65f18  -lgmp 
+make[2]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <type_traits>
+#include <stdint.h>
+#include <stdio.h>
+#include <gmp.h>
+int main()
+{
+    static_assert(std::is_same<mp_size_t, long long>::value ||
+        (sizeof(mp_size_t) == sizeof(long long)
+        && std::is_signed<mp_size_t>::value == std::is_signed<long long>::value)
+        , "not this type");
+    return 0;
+}
+
+Performing C++ SOURCE FILE Test MP_SIZE_T_IS_EXACTLY_LONG succeeded with the following output:
+Change Dir: /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp
+
+Run Build Command(s):make -f Makefile cmTC_9075e/fast && make[1]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_9075e.dir/build.make CMakeFiles/cmTC_9075e.dir/build
+make[2]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9075e.dir/src.cxx.o
+/usr/bin/c++   -export-dynamic -std=c++17 -Wno-c++11-compat -W -Wall -O2 -march=znver2 -DNDEBUG  -Wno-literal-suffix -DMP_SIZE_T_IS_EXACTLY_LONG -o CMakeFiles/cmTC_9075e.dir/src.cxx.o -c /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_9075e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9075e.dir/link.txt --verbose=1
+/usr/bin/c++ -export-dynamic -std=c++17 -Wno-c++11-compat -W -Wall -O2 -march=znver2 -DNDEBUG  -Wno-literal-suffix -DMP_SIZE_T_IS_EXACTLY_LONG CMakeFiles/cmTC_9075e.dir/src.cxx.o -o cmTC_9075e  -lgmp 
+make[2]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <type_traits>
+#include <stdint.h>
+#include <stdio.h>
+#include <gmp.h>
+int main()
+{
+    static_assert(std::is_same<mp_size_t, long>::value, "not this type");
+    return 0;
+}
+
+Performing C++ SOURCE FILE Test MPZ_INTERNAL_SIZE_T_IS_EXACTLY_INT succeeded with the following output:
+Change Dir: /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp
+
+Run Build Command(s):make -f Makefile cmTC_5ccb5/fast && make[1]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_5ccb5.dir/build.make CMakeFiles/cmTC_5ccb5.dir/build
+make[2]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5ccb5.dir/src.cxx.o
+/usr/bin/c++   -export-dynamic -std=c++17 -Wno-c++11-compat -W -Wall -O2 -march=znver2 -DNDEBUG  -Wno-literal-suffix -DMPZ_INTERNAL_SIZE_T_IS_EXACTLY_INT -o CMakeFiles/cmTC_5ccb5.dir/src.cxx.o -c /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_5ccb5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5ccb5.dir/link.txt --verbose=1
+/usr/bin/c++ -export-dynamic -std=c++17 -Wno-c++11-compat -W -Wall -O2 -march=znver2 -DNDEBUG  -Wno-literal-suffix -DMPZ_INTERNAL_SIZE_T_IS_EXACTLY_INT CMakeFiles/cmTC_5ccb5.dir/src.cxx.o -o cmTC_5ccb5  -lgmp 
+make[2]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <type_traits>
+#include <stdint.h>
+#include <stdio.h>
+#include <gmp.h>
+int main()
+{
+    static_assert(std::is_same<decltype(__mpz_struct::_mp_size), int>::value, "not this type");
+    return 0;
+}
+
+Determining if the function log2 exists passed with the following output:
+Change Dir: /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp
+
+Run Build Command(s):make -f Makefile cmTC_236ec/fast && make[1]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_236ec.dir/build.make CMakeFiles/cmTC_236ec.dir/build
+make[2]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_236ec.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -std=c99 -W -Wall -O2 -march=znver2 -DNDEBUG  -DCHECK_FUNCTION_EXISTS=log2 -o CMakeFiles/cmTC_236ec.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function 'log2'; expected 'double(double)' [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.22/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro 'CHECK_FUNCTION_EXISTS'
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/share/cmake-3.22/Modules/CheckFunctionExists.c:1:1: note: 'log2' is declared in header '<math.h>'
+  +++ |+#include <math.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_236ec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_236ec.dir/link.txt --verbose=1
+/usr/bin/cc -std=c99 -W -Wall -O2 -march=znver2 -DNDEBUG  -DCHECK_FUNCTION_EXISTS=log2 CMakeFiles/cmTC_236ec.dir/CheckFunctionExists.c.o -o cmTC_236ec  -lm 
+make[2]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function exp2 exists passed with the following output:
+Change Dir: /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp
+
+Run Build Command(s):make -f Makefile cmTC_f0c66/fast && make[1]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_f0c66.dir/build.make CMakeFiles/cmTC_f0c66.dir/build
+make[2]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f0c66.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -std=c99 -W -Wall -O2 -march=znver2 -DNDEBUG  -DCHECK_FUNCTION_EXISTS=exp2 -o CMakeFiles/cmTC_f0c66.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function 'exp2'; expected 'double(double)' [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.22/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro 'CHECK_FUNCTION_EXISTS'
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/share/cmake-3.22/Modules/CheckFunctionExists.c:1:1: note: 'exp2' is declared in header '<math.h>'
+  +++ |+#include <math.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_f0c66
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f0c66.dir/link.txt --verbose=1
+/usr/bin/cc -std=c99 -W -Wall -O2 -march=znver2 -DNDEBUG  -DCHECK_FUNCTION_EXISTS=exp2 CMakeFiles/cmTC_f0c66.dir/CheckFunctionExists.c.o -o cmTC_f0c66  -lm 
+make[2]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function cabsl exists passed with the following output:
+Change Dir: /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp
+
+Run Build Command(s):make -f Makefile cmTC_ab11e/fast && make[1]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_ab11e.dir/build.make CMakeFiles/cmTC_ab11e.dir/build
+make[2]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ab11e.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -std=c99 -W -Wall -O2 -march=znver2 -DNDEBUG  -DCHECK_FUNCTION_EXISTS=cabsl -o CMakeFiles/cmTC_ab11e.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function 'cabsl'; expected 'long double(_Complex long double)' [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.22/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro 'CHECK_FUNCTION_EXISTS'
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/share/cmake-3.22/Modules/CheckFunctionExists.c:1:1: note: 'cabsl' is declared in header '<complex.h>'
+  +++ |+#include <complex.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_ab11e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ab11e.dir/link.txt --verbose=1
+/usr/bin/cc -std=c99 -W -Wall -O2 -march=znver2 -DNDEBUG  -DCHECK_FUNCTION_EXISTS=cabsl CMakeFiles/cmTC_ab11e.dir/CheckFunctionExists.c.o -o cmTC_ab11e  -lm 
+make[2]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function clog exists passed with the following output:
+Change Dir: /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp
+
+Run Build Command(s):make -f Makefile cmTC_f1073/fast && make[1]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_f1073.dir/build.make CMakeFiles/cmTC_f1073.dir/build
+make[2]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f1073.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -std=c99 -W -Wall -O2 -march=znver2 -DNDEBUG  -DCHECK_FUNCTION_EXISTS=clog -o CMakeFiles/cmTC_f1073.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function 'clog'; expected '_Complex double(_Complex double)' [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.22/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro 'CHECK_FUNCTION_EXISTS'
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/share/cmake-3.22/Modules/CheckFunctionExists.c:1:1: note: 'clog' is declared in header '<complex.h>'
+  +++ |+#include <complex.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_f1073
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f1073.dir/link.txt --verbose=1
+/usr/bin/cc -std=c99 -W -Wall -O2 -march=znver2 -DNDEBUG  -DCHECK_FUNCTION_EXISTS=clog CMakeFiles/cmTC_f1073.dir/CheckFunctionExists.c.o -o cmTC_f1073  -lm 
+make[2]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+
+
+
+Performing C++ SOURCE FILE Test HAVE_STDCPP_MATH_SPEC_FUNCS succeeded with the following output:
+Change Dir: /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp
+
+Run Build Command(s):make -f Makefile cmTC_34e25/fast && make[1]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_34e25.dir/build.make CMakeFiles/cmTC_34e25.dir/build
+make[2]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_34e25.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_STDCPP_MATH_SPEC_FUNCS  -export-dynamic -std=c++17 -Wno-c++11-compat -W -Wall -O2 -march=znver2 -DNDEBUG  -Wno-literal-suffix  -o CMakeFiles/cmTC_34e25.dir/src.cxx.o -c /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_34e25
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_34e25.dir/link.txt --verbose=1
+/usr/bin/c++ -export-dynamic -std=c++17 -Wno-c++11-compat -W -Wall -O2 -march=znver2 -DNDEBUG  -Wno-literal-suffix  CMakeFiles/cmTC_34e25.dir/src.cxx.o -o cmTC_34e25 
+make[2]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#define __STDCPP_MATH_SPEC_FUNCS__ 201003L
+#define __STDCPP_WANT_MATH_SPEC_FUNCS__ 1       /* for expint() */
+#include <cmath>
+
+double foo(size_t p0, size_t p1) {
+    return std::expint(log(p1)) - std::expint(log(p0));
+}
+
+int main() {
+    return foo(17, 42) >= 3 ? 0 : 1;
+}
+
+
+Determining if files sys/resource.h exist passed with the following output:
+Change Dir: /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp
+
+Run Build Command(s):make -f Makefile cmTC_58ef4/fast && make[1]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_58ef4.dir/build.make CMakeFiles/cmTC_58ef4.dir/build
+make[2]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_58ef4.dir/HAVE_RESOURCE_H.c.o
+/usr/bin/cc   -std=c99 -W -Wall -O2 -march=znver2 -DNDEBUG   -o CMakeFiles/cmTC_58ef4.dir/HAVE_RESOURCE_H.c.o -c /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CheckIncludeFiles/HAVE_RESOURCE_H.c
+Linking C executable cmTC_58ef4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_58ef4.dir/link.txt --verbose=1
+/usr/bin/cc -std=c99 -W -Wall -O2 -march=znver2 -DNDEBUG   CMakeFiles/cmTC_58ef4.dir/HAVE_RESOURCE_H.c.o -o cmTC_58ef4 
+make[2]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files sys/utsname.h exist passed with the following output:
+Change Dir: /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp
+
+Run Build Command(s):make -f Makefile cmTC_b081e/fast && make[1]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_b081e.dir/build.make CMakeFiles/cmTC_b081e.dir/build
+make[2]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b081e.dir/HAVE_UTSNAME_H.c.o
+/usr/bin/cc   -std=c99 -W -Wall -O2 -march=znver2 -DNDEBUG   -o CMakeFiles/cmTC_b081e.dir/HAVE_UTSNAME_H.c.o -c /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CheckIncludeFiles/HAVE_UTSNAME_H.c
+Linking C executable cmTC_b081e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b081e.dir/link.txt --verbose=1
+/usr/bin/cc -std=c99 -W -Wall -O2 -march=znver2 -DNDEBUG   CMakeFiles/cmTC_b081e.dir/HAVE_UTSNAME_H.c.o -o cmTC_b081e 
+make[2]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files sys/statvfs.h exist passed with the following output:
+Change Dir: /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp
+
+Run Build Command(s):make -f Makefile cmTC_400d8/fast && make[1]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_400d8.dir/build.make CMakeFiles/cmTC_400d8.dir/build
+make[2]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_400d8.dir/HAVE_STATVFS_H.c.o
+/usr/bin/cc   -std=c99 -W -Wall -O2 -march=znver2 -DNDEBUG   -o CMakeFiles/cmTC_400d8.dir/HAVE_STATVFS_H.c.o -c /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CheckIncludeFiles/HAVE_STATVFS_H.c
+Linking C executable cmTC_400d8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_400d8.dir/link.txt --verbose=1
+/usr/bin/cc -std=c99 -W -Wall -O2 -march=znver2 -DNDEBUG   CMakeFiles/cmTC_400d8.dir/HAVE_STATVFS_H.c.o -o cmTC_400d8 
+make[2]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files sys/wait.h exist passed with the following output:
+Change Dir: /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp
+
+Run Build Command(s):make -f Makefile cmTC_5ba04/fast && make[1]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_5ba04.dir/build.make CMakeFiles/cmTC_5ba04.dir/build
+make[2]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5ba04.dir/HAVE_WAIT_H.c.o
+/usr/bin/cc   -std=c99 -W -Wall -O2 -march=znver2 -DNDEBUG   -o CMakeFiles/cmTC_5ba04.dir/HAVE_WAIT_H.c.o -c /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CheckIncludeFiles/HAVE_WAIT_H.c
+Linking C executable cmTC_5ba04
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5ba04.dir/link.txt --verbose=1
+/usr/bin/cc -std=c99 -W -Wall -O2 -march=znver2 -DNDEBUG   CMakeFiles/cmTC_5ba04.dir/HAVE_WAIT_H.c.o -o cmTC_5ba04 
+make[2]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files libgen.h exist passed with the following output:
+Change Dir: /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp
+
+Run Build Command(s):make -f Makefile cmTC_2fc7d/fast && make[1]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_2fc7d.dir/build.make CMakeFiles/cmTC_2fc7d.dir/build
+make[2]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2fc7d.dir/HAVE_LIBGEN_H.c.o
+/usr/bin/cc   -std=c99 -W -Wall -O2 -march=znver2 -DNDEBUG   -o CMakeFiles/cmTC_2fc7d.dir/HAVE_LIBGEN_H.c.o -c /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CheckIncludeFiles/HAVE_LIBGEN_H.c
+Linking C executable cmTC_2fc7d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2fc7d.dir/link.txt --verbose=1
+/usr/bin/cc -std=c99 -W -Wall -O2 -march=znver2 -DNDEBUG   CMakeFiles/cmTC_2fc7d.dir/HAVE_LIBGEN_H.c.o -o cmTC_2fc7d 
+make[2]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files sys/mman.h exist passed with the following output:
+Change Dir: /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp
+
+Run Build Command(s):make -f Makefile cmTC_ea300/fast && make[1]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_ea300.dir/build.make CMakeFiles/cmTC_ea300.dir/build
+make[2]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ea300.dir/HAVE_SYS_MMAN_H.c.o
+/usr/bin/cc   -std=c99 -W -Wall -O2 -march=znver2 -DNDEBUG   -o CMakeFiles/cmTC_ea300.dir/HAVE_SYS_MMAN_H.c.o -c /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CheckIncludeFiles/HAVE_SYS_MMAN_H.c
+Linking C executable cmTC_ea300
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ea300.dir/link.txt --verbose=1
+/usr/bin/cc -std=c99 -W -Wall -O2 -march=znver2 -DNDEBUG   CMakeFiles/cmTC_ea300.dir/HAVE_SYS_MMAN_H.c.o -o cmTC_ea300 
+make[2]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the SIGHUP exist passed with the following output:
+Change Dir: /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp
+
+Run Build Command(s):make -f Makefile cmTC_8adac/fast && make[1]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_8adac.dir/build.make CMakeFiles/cmTC_8adac.dir/build
+make[2]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8adac.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -std=c99 -W -Wall -O2 -march=znver2 -DNDEBUG   -o CMakeFiles/cmTC_8adac.dir/CheckSymbolExists.c.o -c /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_8adac
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8adac.dir/link.txt --verbose=1
+/usr/bin/cc -std=c99 -W -Wall -O2 -march=znver2 -DNDEBUG   CMakeFiles/cmTC_8adac.dir/CheckSymbolExists.c.o -o cmTC_8adac 
+make[2]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+
+
+File /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <signal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef SIGHUP
+  return ((int*)(&SIGHUP))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C SOURCE FILE Test HAVE_POSIX_MEMALIGN succeeded with the following compile output:
+Change Dir: /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp
+
+Run Build Command(s):make -f Makefile cmTC_75bd4/fast && make[1]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_75bd4.dir/build.make CMakeFiles/cmTC_75bd4.dir/build
+make[2]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_75bd4.dir/src.c.o
+/usr/bin/cc -DHAVE_POSIX_MEMALIGN  -std=c99 -W -Wall -O2 -march=znver2 -DNDEBUG   -o CMakeFiles/cmTC_75bd4.dir/src.c.o -c /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp/src.c
+/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp/src.c: In function 'main':
+/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp/src.c:8:22: warning: implicit declaration of function 'posix_memalign' [-Wimplicit-function-declaration]
+    8 |             int rc = posix_memalign (&res, 64, i);
+      |                      ^~~~~~~~~~~~~~
+Linking C executable cmTC_75bd4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_75bd4.dir/link.txt --verbose=1
+/usr/bin/cc -std=c99 -W -Wall -O2 -march=znver2 -DNDEBUG   CMakeFiles/cmTC_75bd4.dir/src.c.o -o cmTC_75bd4 
+make[2]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+
+
+...and run output:
+
+Return value: 1
+Source file was:
+
+#include <stdlib.h>
+int main()
+{
+    void *res = NULL;
+    for (size_t i = 1; i <= 2340; i++)
+        {
+            int rc = posix_memalign (&res, 64, i);
+            if (rc != 0 || (((unsigned long) res) % 64) != 0)
+                __builtin_abort ();
+        }
+    return 0;
+}
+
+Determining if the function nanosleep exists passed with the following output:
+Change Dir: /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp
+
+Run Build Command(s):make -f Makefile cmTC_5b8b0/fast && make[1]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_5b8b0.dir/build.make CMakeFiles/cmTC_5b8b0.dir/build
+make[2]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5b8b0.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -std=c99 -W -Wall -O2 -march=znver2 -DNDEBUG  -DCHECK_FUNCTION_EXISTS=nanosleep -o CMakeFiles/cmTC_5b8b0.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5b8b0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5b8b0.dir/link.txt --verbose=1
+/usr/bin/cc -std=c99 -W -Wall -O2 -march=znver2 -DNDEBUG  -DCHECK_FUNCTION_EXISTS=nanosleep CMakeFiles/cmTC_5b8b0.dir/CheckFunctionExists.c.o -o cmTC_5b8b0 
+make[2]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function usleep exists passed with the following output:
+Change Dir: /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp
+
+Run Build Command(s):make -f Makefile cmTC_d376d/fast && make[1]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_d376d.dir/build.make CMakeFiles/cmTC_d376d.dir/build
+make[2]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d376d.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -std=c99 -W -Wall -O2 -march=znver2 -DNDEBUG  -DCHECK_FUNCTION_EXISTS=usleep -o CMakeFiles/cmTC_d376d.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d376d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d376d.dir/link.txt --verbose=1
+/usr/bin/cc -std=c99 -W -Wall -O2 -march=znver2 -DNDEBUG  -DCHECK_FUNCTION_EXISTS=usleep CMakeFiles/cmTC_d376d.dir/CheckFunctionExists.c.o -o cmTC_d376d 
+make[2]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function popen exists passed with the following output:
+Change Dir: /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp
+
+Run Build Command(s):make -f Makefile cmTC_b556c/fast && make[1]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_b556c.dir/build.make CMakeFiles/cmTC_b556c.dir/build
+make[2]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b556c.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -std=c99 -W -Wall -O2 -march=znver2 -DNDEBUG  -DCHECK_FUNCTION_EXISTS=popen -o CMakeFiles/cmTC_b556c.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b556c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b556c.dir/link.txt --verbose=1
+/usr/bin/cc -std=c99 -W -Wall -O2 -march=znver2 -DNDEBUG  -DCHECK_FUNCTION_EXISTS=popen CMakeFiles/cmTC_b556c.dir/CheckFunctionExists.c.o -o cmTC_b556c 
+make[2]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function pclose exists passed with the following output:
+Change Dir: /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp
+
+Run Build Command(s):make -f Makefile cmTC_ff9c6/fast && make[1]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_ff9c6.dir/build.make CMakeFiles/cmTC_ff9c6.dir/build
+make[2]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ff9c6.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -std=c99 -W -Wall -O2 -march=znver2 -DNDEBUG  -DCHECK_FUNCTION_EXISTS=pclose -o CMakeFiles/cmTC_ff9c6.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ff9c6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ff9c6.dir/link.txt --verbose=1
+/usr/bin/cc -std=c99 -W -Wall -O2 -march=znver2 -DNDEBUG  -DCHECK_FUNCTION_EXISTS=pclose CMakeFiles/cmTC_ff9c6.dir/CheckFunctionExists.c.o -o cmTC_ff9c6 
+make[2]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function getrusage exists passed with the following output:
+Change Dir: /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp
+
+Run Build Command(s):make -f Makefile cmTC_ed451/fast && make[1]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_ed451.dir/build.make CMakeFiles/cmTC_ed451.dir/build
+make[2]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ed451.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -std=c99 -W -Wall -O2 -march=znver2 -DNDEBUG  -DCHECK_FUNCTION_EXISTS=getrusage -o CMakeFiles/cmTC_ed451.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ed451
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ed451.dir/link.txt --verbose=1
+/usr/bin/cc -std=c99 -W -Wall -O2 -march=znver2 -DNDEBUG  -DCHECK_FUNCTION_EXISTS=getrusage CMakeFiles/cmTC_ed451.dir/CheckFunctionExists.c.o -o cmTC_ed451 
+make[2]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function strdup exists passed with the following output:
+Change Dir: /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp
+
+Run Build Command(s):make -f Makefile cmTC_a417b/fast && make[1]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_a417b.dir/build.make CMakeFiles/cmTC_a417b.dir/build
+make[2]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a417b.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -std=c99 -W -Wall -O2 -march=znver2 -DNDEBUG  -DCHECK_FUNCTION_EXISTS=strdup -o CMakeFiles/cmTC_a417b.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a417b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a417b.dir/link.txt --verbose=1
+/usr/bin/cc -std=c99 -W -Wall -O2 -march=znver2 -DNDEBUG  -DCHECK_FUNCTION_EXISTS=strdup CMakeFiles/cmTC_a417b.dir/CheckFunctionExists.c.o -o cmTC_a417b 
+make[2]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function sigaction exists passed with the following output:
+Change Dir: /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp
+
+Run Build Command(s):make -f Makefile cmTC_8aed3/fast && make[1]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_8aed3.dir/build.make CMakeFiles/cmTC_8aed3.dir/build
+make[2]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8aed3.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -std=c99 -W -Wall -O2 -march=znver2 -DNDEBUG  -DCHECK_FUNCTION_EXISTS=sigaction -o CMakeFiles/cmTC_8aed3.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_8aed3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8aed3.dir/link.txt --verbose=1
+/usr/bin/cc -std=c99 -W -Wall -O2 -march=znver2 -DNDEBUG  -DCHECK_FUNCTION_EXISTS=sigaction CMakeFiles/cmTC_8aed3.dir/CheckFunctionExists.c.o -o cmTC_8aed3 
+make[2]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function waitpid exists passed with the following output:
+Change Dir: /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp
+
+Run Build Command(s):make -f Makefile cmTC_bff39/fast && make[1]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_bff39.dir/build.make CMakeFiles/cmTC_bff39.dir/build
+make[2]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bff39.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -std=c99 -W -Wall -O2 -march=znver2 -DNDEBUG  -DCHECK_FUNCTION_EXISTS=waitpid -o CMakeFiles/cmTC_bff39.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_bff39
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bff39.dir/link.txt --verbose=1
+/usr/bin/cc -std=c99 -W -Wall -O2 -march=znver2 -DNDEBUG  -DCHECK_FUNCTION_EXISTS=waitpid CMakeFiles/cmTC_bff39.dir/CheckFunctionExists.c.o -o cmTC_bff39 
+make[2]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function ctime_r exists passed with the following output:
+Change Dir: /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp
+
+Run Build Command(s):make -f Makefile cmTC_757f7/fast && make[1]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_757f7.dir/build.make CMakeFiles/cmTC_757f7.dir/build
+make[2]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_757f7.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -std=c99 -W -Wall -O2 -march=znver2 -DNDEBUG  -DCHECK_FUNCTION_EXISTS=ctime_r -o CMakeFiles/cmTC_757f7.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_757f7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_757f7.dir/link.txt --verbose=1
+/usr/bin/cc -std=c99 -W -Wall -O2 -march=znver2 -DNDEBUG  -DCHECK_FUNCTION_EXISTS=ctime_r CMakeFiles/cmTC_757f7.dir/CheckFunctionExists.c.o -o cmTC_757f7 
+make[2]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function realpath exists passed with the following output:
+Change Dir: /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp
+
+Run Build Command(s):make -f Makefile cmTC_9a8d3/fast && make[1]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_9a8d3.dir/build.make CMakeFiles/cmTC_9a8d3.dir/build
+make[2]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9a8d3.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -std=c99 -W -Wall -O2 -march=znver2 -DNDEBUG  -DCHECK_FUNCTION_EXISTS=realpath -o CMakeFiles/cmTC_9a8d3.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_9a8d3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9a8d3.dir/link.txt --verbose=1
+/usr/bin/cc -std=c99 -W -Wall -O2 -march=znver2 -DNDEBUG  -DCHECK_FUNCTION_EXISTS=realpath CMakeFiles/cmTC_9a8d3.dir/CheckFunctionExists.c.o -o cmTC_9a8d3 
+make[2]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function mmap exists passed with the following output:
+Change Dir: /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp
+
+Run Build Command(s):make -f Makefile cmTC_430ca/fast && make[1]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_430ca.dir/build.make CMakeFiles/cmTC_430ca.dir/build
+make[2]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_430ca.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -std=c99 -W -Wall -O2 -march=znver2 -DNDEBUG  -DCHECK_FUNCTION_EXISTS=mmap -o CMakeFiles/cmTC_430ca.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_430ca
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_430ca.dir/link.txt --verbose=1
+/usr/bin/cc -std=c99 -W -Wall -O2 -march=znver2 -DNDEBUG  -DCHECK_FUNCTION_EXISTS=mmap CMakeFiles/cmTC_430ca.dir/CheckFunctionExists.c.o -o cmTC_430ca 
+make[2]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function sysconf exists passed with the following output:
+Change Dir: /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp
+
+Run Build Command(s):make -f Makefile cmTC_8fb29/fast && make[1]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_8fb29.dir/build.make CMakeFiles/cmTC_8fb29.dir/build
+make[2]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8fb29.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -std=c99 -W -Wall -O2 -march=znver2 -DNDEBUG  -DCHECK_FUNCTION_EXISTS=sysconf -o CMakeFiles/cmTC_8fb29.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_8fb29
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8fb29.dir/link.txt --verbose=1
+/usr/bin/cc -std=c99 -W -Wall -O2 -march=znver2 -DNDEBUG  -DCHECK_FUNCTION_EXISTS=sysconf CMakeFiles/cmTC_8fb29.dir/CheckFunctionExists.c.o -o cmTC_8fb29 
+make[2]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function strndup exists passed with the following output:
+Change Dir: /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp
+
+Run Build Command(s):make -f Makefile cmTC_f2cae/fast && make[1]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_f2cae.dir/build.make CMakeFiles/cmTC_f2cae.dir/build
+make[2]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f2cae.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -std=c99 -W -Wall -O2 -march=znver2 -DNDEBUG  -DCHECK_FUNCTION_EXISTS=strndup -o CMakeFiles/cmTC_f2cae.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f2cae
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2cae.dir/link.txt --verbose=1
+/usr/bin/cc -std=c99 -W -Wall -O2 -march=znver2 -DNDEBUG  -DCHECK_FUNCTION_EXISTS=strndup CMakeFiles/cmTC_f2cae.dir/CheckFunctionExists.c.o -o cmTC_f2cae 
+make[2]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function strnlen exists passed with the following output:
+Change Dir: /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp
+
+Run Build Command(s):make -f Makefile cmTC_16efb/fast && make[1]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_16efb.dir/build.make CMakeFiles/cmTC_16efb.dir/build
+make[2]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_16efb.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -std=c99 -W -Wall -O2 -march=znver2 -DNDEBUG  -DCHECK_FUNCTION_EXISTS=strnlen -o CMakeFiles/cmTC_16efb.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_16efb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_16efb.dir/link.txt --verbose=1
+/usr/bin/cc -std=c99 -W -Wall -O2 -march=znver2 -DNDEBUG  -DCHECK_FUNCTION_EXISTS=strnlen CMakeFiles/cmTC_16efb.dir/CheckFunctionExists.c.o -o cmTC_16efb 
+make[2]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function wait4 exists passed with the following output:
+Change Dir: /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp
+
+Run Build Command(s):make -f Makefile cmTC_36422/fast && make[1]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_36422.dir/build.make CMakeFiles/cmTC_36422.dir/build
+make[2]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_36422.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -std=c99 -W -Wall -O2 -march=znver2 -DNDEBUG  -DCHECK_FUNCTION_EXISTS=wait4 -o CMakeFiles/cmTC_36422.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_36422
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_36422.dir/link.txt --verbose=1
+/usr/bin/cc -std=c99 -W -Wall -O2 -march=znver2 -DNDEBUG  -DCHECK_FUNCTION_EXISTS=wait4 CMakeFiles/cmTC_36422.dir/CheckFunctionExists.c.o -o cmTC_36422 
+make[2]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+
+
+
+Performing C++ SOURCE FILE Test HAVE_CLOCK_MONOTONIC succeeded with the following output:
+Change Dir: /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp
+
+Run Build Command(s):make -f Makefile cmTC_e5f67/fast && make[1]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_e5f67.dir/build.make CMakeFiles/cmTC_e5f67.dir/build
+make[2]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e5f67.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CLOCK_MONOTONIC  -export-dynamic -std=c++17 -Wno-c++11-compat -W -Wall -O2 -march=znver2 -DNDEBUG  -Wno-literal-suffix  -o CMakeFiles/cmTC_e5f67.dir/src.cxx.o -c /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_e5f67
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e5f67.dir/link.txt --verbose=1
+/usr/bin/c++ -export-dynamic -std=c++17 -Wno-c++11-compat -W -Wall -O2 -march=znver2 -DNDEBUG  -Wno-literal-suffix  CMakeFiles/cmTC_e5f67.dir/src.cxx.o -o cmTC_e5f67 
+make[2]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#define _POSIX_C_SOURCE 200112L
+#include <time.h>
+int main ()
+{
+  struct timespec ts[1];
+  clock_gettime (CLOCK_MONOTONIC, ts);
+  return 0;
+}
+Performing C++ SOURCE FILE Test HAVE_CLOCK_MONOTONIC_RAW succeeded with the following output:
+Change Dir: /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp
+
+Run Build Command(s):make -f Makefile cmTC_26b8f/fast && make[1]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_26b8f.dir/build.make CMakeFiles/cmTC_26b8f.dir/build
+make[2]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_26b8f.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CLOCK_MONOTONIC_RAW  -export-dynamic -std=c++17 -Wno-c++11-compat -W -Wall -O2 -march=znver2 -DNDEBUG  -Wno-literal-suffix  -o CMakeFiles/cmTC_26b8f.dir/src.cxx.o -c /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_26b8f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_26b8f.dir/link.txt --verbose=1
+/usr/bin/c++ -export-dynamic -std=c++17 -Wno-c++11-compat -W -Wall -O2 -march=znver2 -DNDEBUG  -Wno-literal-suffix  CMakeFiles/cmTC_26b8f.dir/src.cxx.o -o cmTC_26b8f 
+make[2]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#define _POSIX_C_SOURCE 200112L
+#include <time.h>
+int main ()
+{
+  struct timespec ts[1];
+  clock_gettime (CLOCK_MONOTONIC_RAW, ts);
+  return 0;
+}
+Performing C++ SOURCE FILE Test HAVE_CLOCK_THREAD_CPUTIME_ID succeeded with the following output:
+Change Dir: /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp
+
+Run Build Command(s):make -f Makefile cmTC_76808/fast && make[1]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_76808.dir/build.make CMakeFiles/cmTC_76808.dir/build
+make[2]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_76808.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CLOCK_THREAD_CPUTIME_ID  -export-dynamic -std=c++17 -Wno-c++11-compat -W -Wall -O2 -march=znver2 -DNDEBUG  -Wno-literal-suffix  -o CMakeFiles/cmTC_76808.dir/src.cxx.o -c /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_76808
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_76808.dir/link.txt --verbose=1
+/usr/bin/c++ -export-dynamic -std=c++17 -Wno-c++11-compat -W -Wall -O2 -march=znver2 -DNDEBUG  -Wno-literal-suffix  CMakeFiles/cmTC_76808.dir/src.cxx.o -o cmTC_76808 
+make[2]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#define _POSIX_C_SOURCE 200112L
+#include <time.h>
+int main ()
+{
+  struct timespec ts[1];
+  clock_gettime (CLOCK_THREAD_CPUTIME_ID, ts);
+  return 0;
+}
+Performing C SOURCE FILE Test SRAND_CHECK succeeded with the following compile output:
+Change Dir: /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp
+
+Run Build Command(s):make -f Makefile cmTC_f54ed/fast && make[1]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_f54ed.dir/build.make CMakeFiles/cmTC_f54ed.dir/build
+make[2]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f54ed.dir/src.c.o
+/usr/bin/cc -DSRAND_CHECK  -std=c99 -W -Wall -O2 -march=znver2 -DNDEBUG   -o CMakeFiles/cmTC_f54ed.dir/src.c.o -c /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_f54ed
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f54ed.dir/link.txt --verbose=1
+/usr/bin/cc -std=c99 -W -Wall -O2 -march=znver2 -DNDEBUG   CMakeFiles/cmTC_f54ed.dir/src.c.o -o cmTC_f54ed 
+make[2]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+
+
+...and run output:
+
+Return value: 1
+Source file was:
+
+    #include <stdlib.h>
+    int main()
+    {
+        srand(1);
+        unsigned long a = rand();
+        srand(1);
+        unsigned long b = rand();
+        return a == b ? EXIT_SUCCESS : EXIT_FAILURE;
+    }
+
+Determining if files linux/binfmts.h exist passed with the following output:
+Change Dir: /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp
+
+Run Build Command(s):make -f Makefile cmTC_4e111/fast && make[1]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_4e111.dir/build.make CMakeFiles/cmTC_4e111.dir/build
+make[2]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4e111.dir/HAVE_LINUX_BINFMTS_H.c.o
+/usr/bin/cc   -std=c99 -W -Wall -O2 -march=znver2 -DNDEBUG   -o CMakeFiles/cmTC_4e111.dir/HAVE_LINUX_BINFMTS_H.c.o -c /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CheckIncludeFiles/HAVE_LINUX_BINFMTS_H.c
+Linking C executable cmTC_4e111
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4e111.dir/link.txt --verbose=1
+/usr/bin/cc -std=c99 -W -Wall -O2 -march=znver2 -DNDEBUG   CMakeFiles/cmTC_4e111.dir/HAVE_LINUX_BINFMTS_H.c.o -o cmTC_4e111 
+make[2]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file cxxabi.h exists passed with the following output:
+Change Dir: /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp
+
+Run Build Command(s):make -f Makefile cmTC_5d8d0/fast && make[1]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_5d8d0.dir/build.make CMakeFiles/cmTC_5d8d0.dir/build
+make[2]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5d8d0.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++   -export-dynamic -std=c++17 -Wno-c++11-compat -W -Wall -O2 -march=znver2 -DNDEBUG  -Wno-literal-suffix  -o CMakeFiles/cmTC_5d8d0.dir/CheckIncludeFile.cxx.o -c /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_5d8d0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5d8d0.dir/link.txt --verbose=1
+/usr/bin/c++ -export-dynamic -std=c++17 -Wno-c++11-compat -W -Wall -O2 -march=znver2 -DNDEBUG  -Wno-literal-suffix  CMakeFiles/cmTC_5d8d0.dir/CheckIncludeFile.cxx.o -o cmTC_5d8d0 
+make[2]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files regex.h exist passed with the following output:
+Change Dir: /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp
+
+Run Build Command(s):make -f Makefile cmTC_99d0e/fast && make[1]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_99d0e.dir/build.make CMakeFiles/cmTC_99d0e.dir/build
+make[2]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_99d0e.dir/HAVE_REGEX_H.c.o
+/usr/bin/cc   -std=c99 -W -Wall -O2 -march=znver2 -DNDEBUG   -o CMakeFiles/cmTC_99d0e.dir/HAVE_REGEX_H.c.o -c /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CheckIncludeFiles/HAVE_REGEX_H.c
+Linking C executable cmTC_99d0e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_99d0e.dir/link.txt --verbose=1
+/usr/bin/cc -std=c99 -W -Wall -O2 -march=znver2 -DNDEBUG   CMakeFiles/cmTC_99d0e.dir/HAVE_REGEX_H.c.o -o cmTC_99d0e 
+make[2]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+
+
+
+Performing C++ SOURCE FILE Test HAVE_ALIGNED_ALLOC succeeded with the following output:
+Change Dir: /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp
+
+Run Build Command(s):make -f Makefile cmTC_4b713/fast && make[1]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_4b713.dir/build.make CMakeFiles/cmTC_4b713.dir/build
+make[2]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4b713.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_ALIGNED_ALLOC  -export-dynamic -std=c++17 -Wno-c++11-compat -W -Wall -O2 -march=znver2 -DNDEBUG  -Wno-literal-suffix  -o CMakeFiles/cmTC_4b713.dir/src.cxx.o -c /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_4b713
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4b713.dir/link.txt --verbose=1
+/usr/bin/c++ -export-dynamic -std=c++17 -Wno-c++11-compat -W -Wall -O2 -march=znver2 -DNDEBUG  -Wno-literal-suffix  CMakeFiles/cmTC_4b713.dir/src.cxx.o -o cmTC_4b713 
+make[2]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <stdlib.h>
+int main()
+{
+    return aligned_alloc(64, 1024) != NULL;
+}
+
+Performing C++ SOURCE FILE Test HAVE_ALIGNAS succeeded with the following output:
+Change Dir: /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp
+
+Run Build Command(s):make -f Makefile cmTC_61391/fast && make[1]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_61391.dir/build.make CMakeFiles/cmTC_61391.dir/build
+make[2]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_61391.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_ALIGNAS  -export-dynamic -std=c++17 -Wno-c++11-compat -W -Wall -O2 -march=znver2 -DNDEBUG  -Wno-literal-suffix  -o CMakeFiles/cmTC_61391.dir/src.cxx.o -c /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_61391
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_61391.dir/link.txt --verbose=1
+/usr/bin/c++ -export-dynamic -std=c++17 -Wno-c++11-compat -W -Wall -O2 -march=znver2 -DNDEBUG  -Wno-literal-suffix  CMakeFiles/cmTC_61391.dir/src.cxx.o -o cmTC_61391 
+make[2]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <stdint.h>
+int main()
+{
+    alignas(8) uint32_t x = 0;
+    return x;
+}
+
+Performing C SOURCE FILE Test HAVE_EXECINFO succeeded with the following output:
+Change Dir: /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp
+
+Run Build Command(s):make -f Makefile cmTC_76f82/fast && make[1]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_76f82.dir/build.make CMakeFiles/cmTC_76f82.dir/build
+make[2]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_76f82.dir/src.c.o
+/usr/bin/cc -DHAVE_EXECINFO  -std=c99 -W -Wall -O2 -march=znver2 -DNDEBUG   -o CMakeFiles/cmTC_76f82.dir/src.c.o -c /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_76f82
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_76f82.dir/link.txt --verbose=1
+/usr/bin/cc -std=c99 -W -Wall -O2 -march=znver2 -DNDEBUG   CMakeFiles/cmTC_76f82.dir/src.c.o -o cmTC_76f82 
+make[2]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <execinfo.h>
+#include <signal.h>
+#include <stdio.h>
+static void signal_handling (int signum)
+{
+   int sz = 100, i;
+   void *buffer [sz];
+   char** text;
+
+   sz = backtrace (buffer, sz);
+   text = backtrace_symbols (buffer, sz);
+   for (i = 0; i < sz; i++)
+       puts(text[i]);
+   signal (signum, SIG_DFL);
+   raise (signum);
+}
+int main()
+{
+    signal (SIGABRT, signal_handling);
+    signal (SIGSEGV, signal_handling);
+}
+
+Determining if the function pthread_create exists passed with the following output:
+Change Dir: /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp
+
+Run Build Command(s):make -f Makefile cmTC_4a6e6/fast && make[1]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_4a6e6.dir/build.make CMakeFiles/cmTC_4a6e6.dir/build
+make[2]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4a6e6.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -std=c99 -W -Wall -O2 -march=znver2 -DNDEBUG  -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_4a6e6.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4a6e6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4a6e6.dir/link.txt --verbose=1
+/usr/bin/cc -std=c99 -W -Wall -O2 -march=znver2 -DNDEBUG  -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_4a6e6.dir/CheckFunctionExists.c.o -o cmTC_4a6e6 
+make[2]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function pthread_barrier_wait exists passed with the following output:
+Change Dir: /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp
+
+Run Build Command(s):make -f Makefile cmTC_10f57/fast && make[1]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_10f57.dir/build.make CMakeFiles/cmTC_10f57.dir/build
+make[2]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_10f57.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -std=c99 -W -Wall -O2 -march=znver2 -DNDEBUG  -DCHECK_FUNCTION_EXISTS=pthread_barrier_wait -o CMakeFiles/cmTC_10f57.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_10f57
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_10f57.dir/link.txt --verbose=1
+/usr/bin/cc -std=c99 -W -Wall -O2 -march=znver2 -DNDEBUG  -DCHECK_FUNCTION_EXISTS=pthread_barrier_wait CMakeFiles/cmTC_10f57.dir/CheckFunctionExists.c.o -o cmTC_10f57 
+make[2]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+
+
+
+Detecting C OpenMP compiler ABI info compiled with the following output:
+Change Dir: /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp
+
+Run Build Command(s):make -f Makefile cmTC_baea6/fast && make[1]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_baea6.dir/build.make CMakeFiles/cmTC_baea6.dir/build
+make[2]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_baea6.dir/OpenMPTryFlag.c.o
+/usr/bin/cc   -std=c99 -W -Wall -O2 -march=znver2 -DNDEBUG  -fopenmp -v -o CMakeFiles/cmTC_baea6.dir/OpenMPTryFlag.c.o -c /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+COLLECT_GCC_OPTIONS='-std=c99' '-Wextra' '-Wall' '-O2' '-march=znver2' '-D' 'NDEBUG' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_baea6.dir/OpenMPTryFlag.c.o' '-c' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_baea6.dir/'
+ /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu -D_REENTRANT -D NDEBUG /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/FindOpenMP/OpenMPTryFlag.c -quiet -dumpdir CMakeFiles/cmTC_baea6.dir/ -dumpbase OpenMPTryFlag.c.c -dumpbase-ext .c -march=znver2 -O2 -Wextra -Wall -std=c99 -version -fopenmp -fasynchronous-unwind-tables -fstack-protector-strong -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cctWTQ96.s
+GNU C99 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/11/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C99 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 50eaa2331df977b8016186198deb2d18
+COLLECT_GCC_OPTIONS='-std=c99' '-Wextra' '-Wall' '-O2' '-march=znver2' '-D' 'NDEBUG' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_baea6.dir/OpenMPTryFlag.c.o' '-c' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_baea6.dir/'
+ as -v --64 -o CMakeFiles/cmTC_baea6.dir/OpenMPTryFlag.c.o /tmp/cctWTQ96.s
+GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-std=c99' '-Wextra' '-Wall' '-O2' '-march=znver2' '-D' 'NDEBUG' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_baea6.dir/OpenMPTryFlag.c.o' '-c' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_baea6.dir/OpenMPTryFlag.c.'
+Linking C executable cmTC_baea6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_baea6.dir/link.txt --verbose=1
+/usr/bin/cc -std=c99 -W -Wall -O2 -march=znver2 -DNDEBUG  -fopenmp -v CMakeFiles/cmTC_baea6.dir/OpenMPTryFlag.c.o -o cmTC_baea6  -v 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+Reading specs from /usr/lib/gcc/x86_64-linux-gnu/11/libgomp.spec
+COLLECT_GCC_OPTIONS='-std=c99' '-Wextra' '-Wall' '-O2' '-march=znver2' '-D' 'NDEBUG' '-fopenmp' '-v' '-o' 'cmTC_baea6' '-v' '-pthread' '-dumpdir' 'cmTC_baea6.'
+ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccFAEb5Y.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_baea6 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o /usr/lib/gcc/x86_64-linux-gnu/11/crtoffloadbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_baea6.dir/OpenMPTryFlag.c.o -lgomp -lgcc --push-state --as-needed -lgcc_s --pop-state -lpthread -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o /usr/lib/gcc/x86_64-linux-gnu/11/crtoffloadend.o
+COLLECT_GCC_OPTIONS='-std=c99' '-Wextra' '-Wall' '-O2' '-march=znver2' '-D' 'NDEBUG' '-fopenmp' '-v' '-o' 'cmTC_baea6' '-v' '-pthread' '-dumpdir' 'cmTC_baea6.'
+make[2]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C OpenMP implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):make -f Makefile cmTC_baea6/fast && make[1]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp']
+  ignore line: [make  -f CMakeFiles/cmTC_baea6.dir/build.make CMakeFiles/cmTC_baea6.dir/build]
+  ignore line: [make[2]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_baea6.dir/OpenMPTryFlag.c.o]
+  ignore line: [/usr/bin/cc   -std=c99 -W -Wall -O2 -march=znver2 -DNDEBUG  -fopenmp -v -o CMakeFiles/cmTC_baea6.dir/OpenMPTryFlag.c.o -c /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/FindOpenMP/OpenMPTryFlag.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-std=c99' '-Wextra' '-Wall' '-O2' '-march=znver2' '-D' 'NDEBUG' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_baea6.dir/OpenMPTryFlag.c.o' '-c' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_baea6.dir/']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu -D_REENTRANT -D NDEBUG /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/FindOpenMP/OpenMPTryFlag.c -quiet -dumpdir CMakeFiles/cmTC_baea6.dir/ -dumpbase OpenMPTryFlag.c.c -dumpbase-ext .c -march=znver2 -O2 -Wextra -Wall -std=c99 -version -fopenmp -fasynchronous-unwind-tables -fstack-protector-strong -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cctWTQ96.s]
+  ignore line: [GNU C99 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C99 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 50eaa2331df977b8016186198deb2d18]
+  ignore line: [COLLECT_GCC_OPTIONS='-std=c99' '-Wextra' '-Wall' '-O2' '-march=znver2' '-D' 'NDEBUG' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_baea6.dir/OpenMPTryFlag.c.o' '-c' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_baea6.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_baea6.dir/OpenMPTryFlag.c.o /tmp/cctWTQ96.s]
+  ignore line: [GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-std=c99' '-Wextra' '-Wall' '-O2' '-march=znver2' '-D' 'NDEBUG' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_baea6.dir/OpenMPTryFlag.c.o' '-c' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_baea6.dir/OpenMPTryFlag.c.']
+  ignore line: [Linking C executable cmTC_baea6]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_baea6.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc -std=c99 -W -Wall -O2 -march=znver2 -DNDEBUG  -fopenmp -v CMakeFiles/cmTC_baea6.dir/OpenMPTryFlag.c.o -o cmTC_baea6  -v ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+  ignore line: [Reading specs from /usr/lib/gcc/x86_64-linux-gnu/11/libgomp.spec]
+  ignore line: [COLLECT_GCC_OPTIONS='-std=c99' '-Wextra' '-Wall' '-O2' '-march=znver2' '-D' 'NDEBUG' '-fopenmp' '-v' '-o' 'cmTC_baea6' '-v' '-pthread' '-dumpdir' 'cmTC_baea6.']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccFAEb5Y.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_baea6 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o /usr/lib/gcc/x86_64-linux-gnu/11/crtoffloadbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_baea6.dir/OpenMPTryFlag.c.o -lgomp -lgcc --push-state --as-needed -lgcc_s --pop-state -lpthread -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o /usr/lib/gcc/x86_64-linux-gnu/11/crtoffloadend.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccFAEb5Y.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_baea6] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
+    arg [CMakeFiles/cmTC_baea6.dir/OpenMPTryFlag.c.o] ==> ignore
+    arg [-lgomp] ==> lib [gomp]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lpthread] ==> lib [pthread]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11] ==> [/usr/lib/gcc/x86_64-linux-gnu/11]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> [/usr/lib]
+  implicit libs: [gomp;gcc;gcc_s;pthread;c;gcc;gcc_s]
+  implicit objs: []
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/11;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Detecting CXX OpenMP compiler ABI info compiled with the following output:
+Change Dir: /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp
+
+Run Build Command(s):make -f Makefile cmTC_c26ff/fast && make[1]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make  -f CMakeFiles/cmTC_c26ff.dir/build.make CMakeFiles/cmTC_c26ff.dir/build
+make[2]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c26ff.dir/OpenMPTryFlag.cpp.o
+/usr/bin/c++   -export-dynamic -std=c++17 -Wno-c++11-compat -W -Wall -O2 -march=znver2 -DNDEBUG  -Wno-literal-suffix -fopenmp -v -o CMakeFiles/cmTC_c26ff.dir/OpenMPTryFlag.cpp.o -c /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+COLLECT_GCC_OPTIONS='-export-dynamic' '-std=c++17' '-Wno-c++11-compat' '-Wextra' '-Wall' '-O2' '-march=znver2' '-D' 'NDEBUG' '-Wno-literal-suffix' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_c26ff.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_c26ff.dir/'
+ /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE -D_REENTRANT -D NDEBUG /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp -quiet -dumpdir CMakeFiles/cmTC_c26ff.dir/ -dumpbase OpenMPTryFlag.cpp.cpp -dumpbase-ext .cpp -march=znver2 -O2 -Wno-c++11-compat -Wextra -Wall -Wno-literal-suffix -std=c++17 -version -fopenmp -fasynchronous-unwind-tables -fstack-protector-strong -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccQr8lxF.s
+GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/11"
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/include/c++/11
+ /usr/include/x86_64-linux-gnu/c++/11
+ /usr/include/c++/11/backward
+ /usr/lib/gcc/x86_64-linux-gnu/11/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: d591828bb4d392ae8b7b160e5bb0b95f
+COLLECT_GCC_OPTIONS='-export-dynamic' '-std=c++17' '-Wno-c++11-compat' '-Wextra' '-Wall' '-O2' '-march=znver2' '-D' 'NDEBUG' '-Wno-literal-suffix' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_c26ff.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_c26ff.dir/'
+ as -v --64 -o CMakeFiles/cmTC_c26ff.dir/OpenMPTryFlag.cpp.o /tmp/ccQr8lxF.s
+GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-export-dynamic' '-std=c++17' '-Wno-c++11-compat' '-Wextra' '-Wall' '-O2' '-march=znver2' '-D' 'NDEBUG' '-Wno-literal-suffix' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_c26ff.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_c26ff.dir/OpenMPTryFlag.cpp.'
+Linking CXX executable cmTC_c26ff
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c26ff.dir/link.txt --verbose=1
+/usr/bin/c++ -export-dynamic -std=c++17 -Wno-c++11-compat -W -Wall -O2 -march=znver2 -DNDEBUG  -Wno-literal-suffix -fopenmp -v CMakeFiles/cmTC_c26ff.dir/OpenMPTryFlag.cpp.o -o cmTC_c26ff  -v 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+Reading specs from /usr/lib/gcc/x86_64-linux-gnu/11/libgomp.spec
+COLLECT_GCC_OPTIONS='-export-dynamic' '-std=c++17' '-Wno-c++11-compat' '-Wextra' '-Wall' '-O2' '-march=znver2' '-D' 'NDEBUG' '-Wno-literal-suffix' '-fopenmp' '-v' '-o' 'cmTC_c26ff' '-v' '-shared-libgcc' '-pthread' '-dumpdir' 'cmTC_c26ff.'
+ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccJJR78m.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_c26ff -export-dynamic /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o /usr/lib/gcc/x86_64-linux-gnu/11/crtoffloadbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_c26ff.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o /usr/lib/gcc/x86_64-linux-gnu/11/crtoffloadend.o
+COLLECT_GCC_OPTIONS='-export-dynamic' '-std=c++17' '-Wno-c++11-compat' '-Wextra' '-Wall' '-O2' '-march=znver2' '-D' 'NDEBUG' '-Wno-literal-suffix' '-fopenmp' '-v' '-o' 'cmTC_c26ff' '-v' '-shared-libgcc' '-pthread' '-dumpdir' 'cmTC_c26ff.'
+make[2]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX OpenMP implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):make -f Makefile cmTC_c26ff/fast && make[1]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp']
+  ignore line: [make  -f CMakeFiles/cmTC_c26ff.dir/build.make CMakeFiles/cmTC_c26ff.dir/build]
+  ignore line: [make[2]: Entering directory '/cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_c26ff.dir/OpenMPTryFlag.cpp.o]
+  ignore line: [/usr/bin/c++   -export-dynamic -std=c++17 -Wno-c++11-compat -W -Wall -O2 -march=znver2 -DNDEBUG  -Wno-literal-suffix -fopenmp -v -o CMakeFiles/cmTC_c26ff.dir/OpenMPTryFlag.cpp.o -c /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-export-dynamic' '-std=c++17' '-Wno-c++11-compat' '-Wextra' '-Wall' '-O2' '-march=znver2' '-D' 'NDEBUG' '-Wno-literal-suffix' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_c26ff.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_c26ff.dir/']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE -D_REENTRANT -D NDEBUG /cado-nfs-fallback1/build/buildkitsandbox/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp -quiet -dumpdir CMakeFiles/cmTC_c26ff.dir/ -dumpbase OpenMPTryFlag.cpp.cpp -dumpbase-ext .cpp -march=znver2 -O2 -Wno-c++11-compat -Wextra -Wall -Wno-literal-suffix -std=c++17 -version -fopenmp -fasynchronous-unwind-tables -fstack-protector-strong -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccQr8lxF.s]
+  ignore line: [GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/11"]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/include/c++/11]
+  ignore line: [ /usr/include/x86_64-linux-gnu/c++/11]
+  ignore line: [ /usr/include/c++/11/backward]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: d591828bb4d392ae8b7b160e5bb0b95f]
+  ignore line: [COLLECT_GCC_OPTIONS='-export-dynamic' '-std=c++17' '-Wno-c++11-compat' '-Wextra' '-Wall' '-O2' '-march=znver2' '-D' 'NDEBUG' '-Wno-literal-suffix' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_c26ff.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_c26ff.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_c26ff.dir/OpenMPTryFlag.cpp.o /tmp/ccQr8lxF.s]
+  ignore line: [GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-export-dynamic' '-std=c++17' '-Wno-c++11-compat' '-Wextra' '-Wall' '-O2' '-march=znver2' '-D' 'NDEBUG' '-Wno-literal-suffix' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_c26ff.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_c26ff.dir/OpenMPTryFlag.cpp.']
+  ignore line: [Linking CXX executable cmTC_c26ff]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c26ff.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++ -export-dynamic -std=c++17 -Wno-c++11-compat -W -Wall -O2 -march=znver2 -DNDEBUG  -Wno-literal-suffix -fopenmp -v CMakeFiles/cmTC_c26ff.dir/OpenMPTryFlag.cpp.o -o cmTC_c26ff  -v ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+  ignore line: [Reading specs from /usr/lib/gcc/x86_64-linux-gnu/11/libgomp.spec]
+  ignore line: [COLLECT_GCC_OPTIONS='-export-dynamic' '-std=c++17' '-Wno-c++11-compat' '-Wextra' '-Wall' '-O2' '-march=znver2' '-D' 'NDEBUG' '-Wno-literal-suffix' '-fopenmp' '-v' '-o' 'cmTC_c26ff' '-v' '-shared-libgcc' '-pthread' '-dumpdir' 'cmTC_c26ff.']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccJJR78m.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_c26ff -export-dynamic /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o /usr/lib/gcc/x86_64-linux-gnu/11/crtoffloadbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_c26ff.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o /usr/lib/gcc/x86_64-linux-gnu/11/crtoffloadend.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccJJR78m.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_c26ff] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
+    arg [CMakeFiles/cmTC_c26ff.dir/OpenMPTryFlag.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgomp] ==> lib [gomp]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lpthread] ==> lib [pthread]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11] ==> [/usr/lib/gcc/x86_64-linux-gnu/11]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gomp;gcc_s;gcc;pthread;c;gcc_s;gcc]
+  implicit objs: []
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/11;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+

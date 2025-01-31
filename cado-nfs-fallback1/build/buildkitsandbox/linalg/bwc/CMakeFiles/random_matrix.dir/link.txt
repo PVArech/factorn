@@ -1,0 +1,1 @@
+/cado-nfs-fallback1/build/buildkitsandbox/cxxwrap.pl -export-dynamic -std=c++17 -Wno-c++11-compat -W -Wall -O2 -march=znver2 -DNDEBUG  -Wno-literal-suffix --mpi CMakeFiles/random_matrix.dir/random_matrix.cpp.o -o random_matrix  ../../utils/libutils.a -lm -lpthread -lgmp -lm -fopenmp 

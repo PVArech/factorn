@@ -1,0 +1,1 @@
+/cado-nfs/build/buildkitsandbox/ccwrap.pl -std=c99 -W -Wall -O2 -march=native -DNDEBUG  CMakeFiles/test_iceildiv.dir/test_iceildiv.c.o -o test_iceildiv 

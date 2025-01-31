@@ -1,0 +1,1 @@
+/cado-nfs/build/buildkitsandbox/cxxwrap.pl -export-dynamic -std=c++17 -Wno-c++11-compat -W -Wall -O2 -march=native -DNDEBUG  -Wno-literal-suffix CMakeFiles/test_bit_vector.dir/test_bit_vector.c.o -o test_bit_vector  ../../utils/libutils.a ../libtests.a -lpthread -lm -fopenmp -lgmp 

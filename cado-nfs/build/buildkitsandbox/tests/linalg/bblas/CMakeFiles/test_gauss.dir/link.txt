@@ -1,0 +1,1 @@
+/cado-nfs/build/buildkitsandbox/cxxwrap.pl -export-dynamic -std=c++17 -Wno-c++11-compat -W -Wall -O2 -march=native -DNDEBUG  -Wno-literal-suffix CMakeFiles/test_gauss.dir/test_gauss.c.o -o test_gauss  ../../../linalg/bblas/libbblas.a -lgmp ../../../utils/libutils.a -fopenmp -lpthread -lgmp -lm 

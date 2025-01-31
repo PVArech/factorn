@@ -1,0 +1,1 @@
+/cado-nfs-fallback1/build/buildkitsandbox/ccwrap.pl -std=c99 -W -Wall -O2 -march=znver2 -DNDEBUG  --mpi CMakeFiles/bcast-file.dir/bcast-file.c.o -o bcast-file   -L/cado-nfs-fallback1/build/buildkitsandbox/gf2x/fft/.libs  -L/cado-nfs-fallback1/build/buildkitsandbox/gf2x/.libs  -L/cado-nfs-fallback1/build/buildkitsandbox/gf2x/gf2x-fft/.libs 

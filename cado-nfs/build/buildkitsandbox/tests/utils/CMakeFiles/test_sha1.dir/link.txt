@@ -1,0 +1,1 @@
+/cado-nfs/build/buildkitsandbox/cxxwrap.pl -export-dynamic -std=c++17 -Wno-c++11-compat -W -Wall -O2 -march=native -DNDEBUG  -Wno-literal-suffix CMakeFiles/test_sha1.dir/test_sha1.c.o -o test_sha1  ../../utils/libutils.a -lpthread -lgmp -lm -fopenmp 

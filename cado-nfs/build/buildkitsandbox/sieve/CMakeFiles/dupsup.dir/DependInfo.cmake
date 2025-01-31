@@ -1,0 +1,22 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
+# The set of languages for which implicit dependencies are needed:
+set(CMAKE_DEPENDS_LANGUAGES
+  )
+
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/cado-nfs/sieve/dupsup.cpp" "sieve/CMakeFiles/dupsup.dir/dupsup.cpp.o" "gcc" "sieve/CMakeFiles/dupsup.dir/dupsup.cpp.o.d"
+  "/cado-nfs/sieve/las-where-am-i-prod.cpp" "sieve/CMakeFiles/dupsup.dir/las-where-am-i-prod.cpp.o" "gcc" "sieve/CMakeFiles/dupsup.dir/las-where-am-i-prod.cpp.o.d"
+  )
+
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/cado-nfs/build/buildkitsandbox/sieve/ecm/CMakeFiles/facul.dir/DependInfo.cmake"
+  "/cado-nfs/build/buildkitsandbox/utils/CMakeFiles/utils.dir/DependInfo.cmake"
+  )
+
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")

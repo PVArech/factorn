@@ -1,0 +1,1 @@
+/cado-nfs-fallback1/build/buildkitsandbox/cxxwrap.pl -export-dynamic -std=c++17 -Wno-c++11-compat -W -Wall -O2 -march=znver2 -DNDEBUG  -Wno-literal-suffix CMakeFiles/test_trialdiv_1.dir/test_trialdiv.cpp.o CMakeFiles/test_trialdiv_1.dir/__/__/sieve/trialdiv.cpp.o -o test_trialdiv_1  ../../utils/libutils.a ../libtests.a -lpthread -lm -fopenmp -lgmp 

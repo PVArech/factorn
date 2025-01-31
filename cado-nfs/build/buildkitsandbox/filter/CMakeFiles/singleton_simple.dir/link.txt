@@ -1,0 +1,1 @@
+/cado-nfs/build/buildkitsandbox/cxxwrap.pl -export-dynamic -std=c++17 -Wno-c++11-compat -W -Wall -O2 -march=native -DNDEBUG  -Wno-literal-suffix CMakeFiles/singleton_simple.dir/singleton_simple.cpp.o -o singleton_simple  ../utils/libutils_with_io.a ../utils/libutils.a -lpthread -lgmp -lm -fopenmp 

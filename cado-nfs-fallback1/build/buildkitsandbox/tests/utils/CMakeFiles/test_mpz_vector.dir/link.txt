@@ -1,0 +1,1 @@
+/cado-nfs-fallback1/build/buildkitsandbox/cxxwrap.pl -export-dynamic -std=c++17 -Wno-c++11-compat -W -Wall -O2 -march=znver2 -DNDEBUG  -Wno-literal-suffix CMakeFiles/test_mpz_vector.dir/test_mpz_vector.c.o -o test_mpz_vector  ../../utils/libutils.a -lpthread -lgmp -lm -fopenmp 

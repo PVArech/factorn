@@ -1,0 +1,1 @@
+/cado-nfs/build/buildkitsandbox/cxxwrap.pl -export-dynamic -std=c++17 -Wno-c++11-compat -W -Wall -O2 -march=native -DNDEBUG  -Wno-literal-suffix CMakeFiles/lift.dir/lift.c.o CMakeFiles/lift.dir/powers_of_p.cpp.o -o lift  ../utils/libutils.a -lm -lpthread -lgmp -lm -fopenmp 

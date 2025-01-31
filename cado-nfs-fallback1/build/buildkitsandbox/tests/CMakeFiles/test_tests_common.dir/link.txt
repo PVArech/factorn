@@ -1,0 +1,1 @@
+/cado-nfs-fallback1/build/buildkitsandbox/ccwrap.pl -std=c99 -W -Wall -O2 -march=znver2 -DNDEBUG  CMakeFiles/test_tests_common.dir/test_tests_common.c.o -o test_tests_common  libtests.a -lgmp 

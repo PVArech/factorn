@@ -1,0 +1,1 @@
+/cado-nfs/build/buildkitsandbox/ccwrap.pl -std=c99 -W -Wall -O2 -march=native -DNDEBUG  CMakeFiles/test_dllist.dir/test_dllist.c.o -o test_dllist  ../libtests.a -lgmp 

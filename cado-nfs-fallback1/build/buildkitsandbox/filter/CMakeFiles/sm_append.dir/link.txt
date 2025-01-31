@@ -1,0 +1,1 @@
+/cado-nfs-fallback1/build/buildkitsandbox/cxxwrap.pl -export-dynamic -std=c++17 -Wno-c++11-compat -W -Wall -O2 -march=znver2 -DNDEBUG  -Wno-literal-suffix -fopenmp CMakeFiles/sm_append.dir/sm_append.cpp.o -o sm_append  ../utils/libutils.a -lpthread -lgmp -lm -fopenmp 

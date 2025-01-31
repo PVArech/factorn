@@ -1,0 +1,1 @@
+/cado-nfs/build/buildkitsandbox/cxxwrap.pl -export-dynamic -std=c++17 -Wno-c++11-compat -W -Wall -O2 -march=native -DNDEBUG  -Wno-literal-suffix CMakeFiles/test_modredc_15ul.dir/test_modredc_15ul.c.o -o test_modredc_15ul  ../../utils/libutils.a ../libtests.a -lpthread -lm -fopenmp -lgmp 
